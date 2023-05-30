@@ -28,8 +28,7 @@ export default function ContactPage() {
 
   return (
     <div>
-      {/* <NavTabs /> */}
-      <h2>Let's Get Started!</h2>
+      <h2>Let's Get Started On Something Great!</h2>
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">What is your name?</label>
         <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} />
@@ -48,7 +47,6 @@ export default function ContactPage() {
 
         <button type="submit">Send it!</button>
       </form>
-      {/* <Footer /> */}
     </div>
   );
 }
