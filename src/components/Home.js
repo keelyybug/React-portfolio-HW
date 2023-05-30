@@ -1,9 +1,9 @@
 import React from 'react';
 import Marquee from "react-fast-marquee";
-import First from './pages/homePages/First';
-import About from './pages/homePages/About';
-import Projects from './pages/homePages/Projects';
-import Contact from './pages/homePages/Contact';
+import First from './pages/HomePages/First';
+import About from './pages/HomePages/About';
+import Projects from './pages/HomePages/Projects';
+import Contact from './pages/HomePages/Contact';
 import Footer from './Footer';
 
 export default function Home() {

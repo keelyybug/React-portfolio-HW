@@ -1,5 +1,5 @@
 import React from 'react';
-import Contact from './homePages/Contact';
+import Contact from './HomePages/Contact';
 
 export default function Portfolio() {
   return (

@@ -12,8 +12,33 @@
     --yellow: #F5F5A1;
 
 }
+#footer{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px 20px;
+    margin-right: 10px;
+    background-image: linear-gradient(270deg, var(--lightPink) 0%, var(--lightPink) 100%);
+    background-repeat: no-repeat;
+    background-size: 0em 0em;
+    background-position: center;
+    border-radius: 50%;
+    transition: all 0.25s ease-in;
+}
+#footer:hover{
+    color: var(--darkPink);
+    background-size: 100% 100%;
+    font-weight: 600;
+}
+.footer{
+    background-color: var(--darkPink);
+    color: white;
+}
 /* ! NAV BAR */
-.nav li a {
+#nav-link {
     color: white;
     display: flex;
     justify-content: center;
@@ -28,12 +53,12 @@
     border-radius: 50%;
     transition: all 0.25s ease-in;
 }
-.nav-item:hover {
+#nav-link:hover{
     color: white;
     background-size: 100% 100%;
     font-weight: 600;
 }
-.nav {
+Navbar {
     padding: 10px;
 }
 
@@ -43,23 +68,30 @@
 .ml-auto {
     margin-left: auto;
 }
-.nav-item a{
+#nav-link {
     color: white;
+    font-size: 20px;
 }
-.navbar-toggler{
+#brand-toggler{
 background-color: var(--darkPink);
 color: white;
 }
-.navbar-brand {
+#brand {
     color: white; /* Default color */
     text-decoration: none;
+    font-size: 30px;
   }
 
-  .navbar-brand:hover {
+#brand:hover {
     color: var(--darkPink); /* Color on hover */
   }
 body{
     background-color: var(--medPink);
     height: 100vh;
     overflow: auto;
+}
+.marquee{
+    margin-top: 150px;
+    font-size: 400px;
+    color: var(--darkPink);
 }

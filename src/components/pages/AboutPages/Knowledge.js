@@ -1,7 +1,7 @@
-import React from 'react';
+import react from "react";
 
-export default function AboutPage() {
-  return (
-    <div></div>
+export default function Knowledge() {
+    return (
+        <div></div>
     );
-}
+};

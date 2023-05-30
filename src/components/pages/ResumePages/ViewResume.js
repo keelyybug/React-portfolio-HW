@@ -1,6 +1,8 @@
 import React from 'react';
 import { Button, Modal } from 'react-bootstrap';
 import { Document, Page } from 'react-pdf';
+import useState from 'react';
+
 
 
 export default function ViewResume() {
