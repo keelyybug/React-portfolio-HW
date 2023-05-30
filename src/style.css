@@ -1,0 +1,65 @@
+:root{
+    --lightPink: #FCEEF2;
+    --medPink: #EEC9D3;
+    --darkPink: #E36387;
+    --lightBlue: #AACDEE;
+    --medBlue: #56a3eb;
+    --Blue: #2573BB;
+    --darkBlue: #134677;
+    --lightGreen: #B3E5B3;
+    --medGreen: #67CB67;
+    --darkGreen: #469A46;
+    --yellow: #F5F5A1;
+
+}
+/* ! NAV BAR */
+.nav li a {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px 20px;
+    margin-right: 10px;
+    background-image: linear-gradient(270deg, var(--darkPink) 0%, var(--darkPink) 100%);
+    background-repeat: no-repeat;
+    background-size: 0em 0em;
+    background-position: center;
+    border-radius: 50%;
+    transition: all 0.25s ease-in;
+}
+.nav-item:hover {
+    color: white;
+    background-size: 100% 100%;
+    font-weight: 600;
+}
+.nav {
+    padding: 10px;
+}
+
+.logo a{
+    color: white;
+}
+.ml-auto {
+    margin-left: auto;
+}
+.nav-item a{
+    color: white;
+}
+.navbar-toggler{
+background-color: var(--darkPink);
+color: white;
+}
+.navbar-brand {
+    color: white; /* Default color */
+    text-decoration: none;
+  }
+
+  .navbar-brand:hover {
+    color: var(--darkPink); /* Color on hover */
+  }
+body{
+    background-color: var(--medPink);
+    height: 100vh;
+    overflow: auto;
+}
