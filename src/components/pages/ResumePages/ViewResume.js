@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Modal } from 'react-bootstrap';
 import { Document, Page } from 'react-pdf';
 import useState from 'react';
+// import '..ResumePages/resume.css';
 
 
 
@@ -21,16 +22,16 @@ export default function ViewResume() {
 
  const handleDownload = () => {
    const link = document.createElement('a');
-   link.href = '../assets/resume.pdf'; 
-   link.download = 'resume.pdf';
+   link.href = '../Assets/Keely-Sherman-Resume.pdf'; 
+   link.download = '../Assets/Keely-Sherman-Resume.pdf';
    link.click();
  };
 
 
  return (
    <div>
-     <Button variant="primary" onClick={handleClickView}>View Resume</Button>
-     <Button variant="secondary" onClick={handleDownload}>Download Resume</Button>
+     <Button className="resume" onClick={handleClickView}>View Resume</Button>
+     <Button className="download" onClick={handleDownload}>Download Resume</Button>
 
 
      <Modal show={showModal} onHide={handleClose} size="lg" centered>

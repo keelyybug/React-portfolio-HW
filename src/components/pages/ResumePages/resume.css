@@ -1,0 +1,31 @@
+:root{
+    --lightPink: #FCEEF2;
+    --medPink: #EEC9D3;
+    --darkPink: #E36387;
+    --lightBlue: #AACDEE;
+    --medBlue: #56a3eb;
+    --Blue: #2573BB;
+    --darkBlue: #134677;
+    --lightGreen: #B3E5B3;
+    --medGreen: #67CB67;
+    --darkGreen: #469A46;
+    --yellow: #F5F5A1;
+
+}
+.resume{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--medPink);
+}
+.resume:hover{
+    background-color: var(--darkPink);
+}
+.download {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.download:hover{
+    background-color: var(--darkPink);
+}
