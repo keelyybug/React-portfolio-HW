@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Modal } from 'react-bootstrap';
 import { Document, Page } from 'react-pdf';
-import useState from 'react';
+import {useState} from 'react';
 // import '..ResumePages/resume.css';
 
 

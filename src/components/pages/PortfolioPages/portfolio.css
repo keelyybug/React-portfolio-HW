@@ -1,0 +1,16 @@
+.portfolio {
+    margin-top: 50px;
+  }
+  
+  .project-card {
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+  }  

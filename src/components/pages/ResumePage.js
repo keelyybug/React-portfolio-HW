@@ -7,9 +7,8 @@ import Knowledge from './AboutPages/Knowledge';
 export default function  Resume() {
  return (
   <div>
-    {/* <ViewResume />
-    <OnPage /> */}
-    <Knowledge />
+    <ViewResume />
+    <OnPage />
     <Contact />
   </div>
  );
