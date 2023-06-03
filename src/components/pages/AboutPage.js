@@ -4,6 +4,7 @@ import Image from '../pages/AboutPages/Image';
 import Knowledge from '../pages/AboutPages/Knowledge';
 import Help from '../pages/AboutPages/Help';
 import Contact from './HomePages/Contact';
+import Footer from '../../components/Footer';
 
 export default function AboutPage() {
   return (
@@ -13,6 +14,7 @@ export default function AboutPage() {
       <Knowledge />
       <Help />
       <Contact />
+      <Footer />
     </div>
   );
 }

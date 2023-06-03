@@ -4,7 +4,9 @@ import Marquee from "react-fast-marquee";
 export default function First() {
     return (
         <div className='first-home'>
-                <img src='../../../Assets/closer.png' alt="Keely Sherman" />
+            <div>
+                <img src='../../../images/closer.jpg' alt="Keely Sherman" />
+            </div>
                 <Marquee>Keely Sherman - Keely Sherman - </Marquee>
         </div>
         );
